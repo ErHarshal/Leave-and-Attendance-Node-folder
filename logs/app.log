@@ -18,3 +18,19 @@
 {"result":"Success","level":"info"}
 {"result":"Success","level":"info"}
 {"result":"Success","level":"info"}
+{"level":"info","message":"MongoDB database connection established successfully"}
+{"result":"failure","level":"error"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"failure","level":"error"}
+{"result":"failure","level":"error"}
+{"level":"info","message":"MongoDB database connection established successfully"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
+{"result":"Success","level":"info"}
