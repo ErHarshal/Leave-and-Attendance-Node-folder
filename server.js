@@ -180,6 +180,8 @@ eventRoutes.route('/updateleavestatus').post(function(req, res) {
         .catch(err => {
             res.status(400).send('adding login data failed');
         });
+    if(req.body.buttonStatus=='approved')
+    {
         if(req.body.typeOfLeave=='Earn Leave')
        { 
        UserLogin.update({username:req.body.username},{$inc:{EarnedLeave:-1}})
@@ -189,7 +191,7 @@ eventRoutes.route('/updateleavestatus').post(function(req, res) {
         .catch(err => {
             res.status(400).send('Marrage leave deduction failed');
         });
-    }
+     }
         else if(req.body.typeOfLeave=='Casual Leave')
         {
             UserLogin.update({username:req.body.username},{$inc:{CasualLeave:-1}})
@@ -210,6 +212,7 @@ eventRoutes.route('/updateleavestatus').post(function(req, res) {
             res.status(400).send('marrageleave leave deduction failed');
         });
       }
+    }
 
     }   
  
