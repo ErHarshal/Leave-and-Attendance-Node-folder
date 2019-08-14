@@ -125,3 +125,5 @@
 {"result":"Success","level":"info"}
 {"result":"failure","level":"error"}
 {"result":"Success","level":"info"}
+{"level":"info","message":"MongoDB database connection established successfully"}
+{"result":"Success","level":"info"}
